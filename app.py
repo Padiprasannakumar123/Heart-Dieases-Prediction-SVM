@@ -22,6 +22,7 @@ def predict():
         lst += [0 ,0 ,1 ,0]
     elif cp >= 3:
         lst += [0 ,0 ,0 ,1]
+        
     trestbps = int(request.form["resting blood pressure" ])
     lst += [trestbps]
     chol = int(request.form["serum cholestoral in mg/dl"])
